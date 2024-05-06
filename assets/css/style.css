@@ -686,7 +686,7 @@ section .container {
 
 .services .icon-box:hover h4 a,
 .services .icon-box:hover p {
-  color: #fff;
+  color: #63eda3;
 }
 
 /*--------------------------------------------------------------
@@ -806,6 +806,26 @@ section .container {
   text-transform: uppercase;
   padding: 0;
   margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container .aviso h5 {
+  text-align: center;
+  color: rgb(255, 255, 115);
+}
+
+.container .aviso p {
+  text-align: center;
+  font-size: 0.87rem;
+}
+
+.container .aviso p span {
+  color: #18a0d2;
 }
 
 .icon-box a {

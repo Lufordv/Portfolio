@@ -684,8 +684,7 @@ section .container {
   background: #35e888;
 }
 
-.services .icon-box:hover h4 a,
-.services .icon-box:hover p {
+.services .icon-box:hover h4 a{
   color: #63eda3;
 }
 

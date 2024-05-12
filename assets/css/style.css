@@ -829,10 +829,15 @@ section .container {
 
 .container .aviso p span {
   color: #18a0d2;
+  font-weight: 600;
 }
 
 .services .icon-box h4 a {
   color: #63eda3;
+}
+
+.icon-box {
+  margin-bottom: 24px;
 }
 
 .icon-box a {
